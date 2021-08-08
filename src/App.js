@@ -28,7 +28,7 @@ function App() {
       </div>
       <div className='main-content'>
         <StarryBackground />
-        <div className='content'>
+        <div style={{ zIndex: "5" }} className='content'>
           <Switch>
             <Route path='/' exact>
               <HomePage />

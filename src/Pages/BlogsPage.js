@@ -1,30 +1,29 @@
-import React from 'react';
-import Tittle from '../Components/Tittle';
-import allBlogs from '../Components/allBlogs';
+import React from "react"
+import allBlogs from "../Components/BlogsData"
+import Title from "../Components/Title"
 
 function BlogsPage() {
-    return (
-        <div >
-            <div className="b-title">
-                <Tittle title={'Recent Blogs'} span={'Recent Blogs'} />
+  return (
+    <div>
+      <div className='b-title'>
+        <Title title={"Recent Blogs"} span={"Recent Blogs"} />
+      </div>
+      <div className='BlogsPage'>
+        {allBlogs.map((blog) => {
+          return (
+            <div className='blog' key={blog.id}>
+              <div className='blog-content'>
+                <img src={blog.image} alt='' />
+                <a href={blog.link} className='blog-link'>
+                  {blog.title}
+                </a>
+              </div>
             </div>
-            <div className="BlogsPage">
-                {
-                    allBlogs.map((blog)=>{
-                        return <div className="blog" key={blog.id}>
-                            <div className="blog-content">
-                                <img src={blog.image} alt=""/>
-                                <a href={blog.link} className="blog-link">
-                                    {blog.title}
-                                </a>
-                            </div>
-                        </div>
-                    })
-                }
-            </div>
-            
-        </div>
-    )
+          )
+        })}
+      </div>
+    </div>
+  )
 }
 
-export default BlogsPage;
+export default BlogsPage
