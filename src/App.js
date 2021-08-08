@@ -1,5 +1,5 @@
 import "./App.scss"
-import NavBar from "./Components/NavBar"
+import NavbarComponent from "./Components/NavbarComponent"
 import HomePage from "./Pages/HomePage"
 import { Switch, Route } from "react-router-dom"
 import AboutPage from "./Pages/AboutPage"
@@ -9,6 +9,7 @@ import ContactPage from "./Pages/ContactPage"
 import { useState } from "react"
 import StarryBackground from "./Components/StarryBackground/StarryBackground"
 import ResumePage from "./Pages/ResumePage/ResumePage"
+import CertificatePage from "./Pages/CertificatePage/CertificatesPage"
 
 function App() {
   const [navToggle, setNavToggle] = useState(false)
@@ -20,7 +21,7 @@ function App() {
   return (
     <div className='App'>
       <div className={`sidebar ${navToggle ? "nav-toggle" : ""}`}>
-        <NavBar />
+        <NavbarComponent />
       </div>
       <div className='nav-btn' onClick={navClick}>
         <div className='lines-1'></div>
@@ -48,6 +49,9 @@ function App() {
             </Route>
             <Route path='/resume' exact>
               <ResumePage />
+            </Route>
+            <Route path='/certificates' exact>
+              <CertificatePage />
             </Route>
           </Switch>
         </div>

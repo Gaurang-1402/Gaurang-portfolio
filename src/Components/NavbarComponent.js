@@ -2,7 +2,7 @@ import React from "react"
 import profilePhoto from "../img/profile.jpg"
 import { NavLink } from "react-router-dom"
 
-function Navbar() {
+function NavbarComponent() {
   return (
     <div className='NavBar'>
       <nav className='nav'>
@@ -31,6 +31,12 @@ function Navbar() {
               Resume
             </NavLink>
           </li>
+
+          <li className='nav-item'>
+            <NavLink to='/certificates' exact activeClassName='active'>
+              Certificates
+            </NavLink>
+          </li>
           <li className='nav-item'>
             <NavLink to='/blogs' exact activeClassName='active'>
               Blogs
@@ -51,4 +57,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default NavbarComponent
