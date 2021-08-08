@@ -1,0 +1,28 @@
+.btn-category {
+  padding: 0.5rem 1rem;
+  background-color: #0381ff5b;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  color: white;
+  margin-bottom: 2rem;
+  &:not(:last-child) {
+    margin-right: 1rem;
+  }
+  &:hover {
+    background-color: #037fff;
+  }
+  &:active {
+    background-color: #037fff;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 10rem;
+  flex-wrap: wrap;
+}

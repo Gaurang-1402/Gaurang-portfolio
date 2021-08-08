@@ -8,6 +8,7 @@ import BlogsPage from "./Pages/BlogsPage"
 import ContactPage from "./Pages/ContactPage"
 import { useState } from "react"
 import StarryBackground from "./Components/StarryBackground/StarryBackground"
+import ResumePage from "./Pages/ResumePage/ResumePage"
 
 function App() {
   const [navToggle, setNavToggle] = useState(false)
@@ -44,6 +45,9 @@ function App() {
             </Route>
             <Route path='/contact' exact>
               <ContactPage />
+            </Route>
+            <Route path='/resume' exact>
+              <ResumePage />
             </Route>
           </Switch>
         </div>

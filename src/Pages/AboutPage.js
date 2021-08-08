@@ -10,7 +10,7 @@ import Title from "../Components/Title"
 function AboutPage() {
   return (
     <div className='AboutPage'>
-      <Title title={"About Me"} span={"About Me"} />
+      <Title title={"About Me"} />
       <ImageSection />
       <Title title={"My Skills"} span={"My Skills"} />
       <div className='skillsContainer'>
