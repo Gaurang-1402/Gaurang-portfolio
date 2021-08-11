@@ -8,10 +8,10 @@ import Title from "../Components/Title"
 function ContactPage() {
   return (
     <div>
-      <div className='title'>
+      <div className='contact-title-container'>
         <Title title={"Contact me"} />
       </div>
-      <div className='ContactPage'>
+      <div className='contact-page'>
         <div className='map-sect'>
           <iframe
             title='map'

@@ -4,45 +4,40 @@ import { NavLink } from "react-router-dom"
 
 function NavbarComponent() {
   return (
-    <div className='NavBar'>
-      <nav className='nav'>
-        <div className='profile'>
+    <div className='navbar-container'>
+      <nav className='navbar-content'>
+        <div className='navbar-profile'>
           <img alt='Gaurang Ruparelia' src={profilePhoto}></img>
         </div>
 
-        <ul className='nav-items'>
-          <li className='nav-item'>
+        <ul className='navbar-items'>
+          <li className='navbar-item'>
             <NavLink to='/' exact activeClassName='active'>
               Home
             </NavLink>
           </li>
-          <li className='nav-item'>
+          <li className='navbar-item'>
             <NavLink to='/about' exact activeClassName='active'>
               About me
             </NavLink>
           </li>
-          <li className='nav-item'>
+          <li className='navbar-item'>
             <NavLink to='/portfolios' exact activeClassName='active'>
               Portfolios
             </NavLink>
           </li>
-          <li className='nav-item'>
+          <li className='navbar-item'>
             <NavLink to='/resume' exact activeClassName='active'>
               Resume
             </NavLink>
           </li>
 
-          <li className='nav-item'>
-            <NavLink to='/certificates' exact activeClassName='active'>
-              Certificates
+          <li className='navbar-item'>
+            <NavLink to='/projects' exact activeClassName='active'>
+              Projects
             </NavLink>
           </li>
-          <li className='nav-item'>
-            <NavLink to='/blogs' exact activeClassName='active'>
-              Blogs
-            </NavLink>
-          </li>
-          <li className='nav-item'>
+          <li className='navbar-item'>
             <NavLink to='/contact' exact activeClassName='active'>
               Contact
             </NavLink>

@@ -1,7 +1,7 @@
-.PortfolioPage {
+.research-page {
 }
 
-.portfolis {
+.research-content {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -13,8 +13,8 @@
   @media screen and (max-width: 900px) {
     grid-template-columns: repeat(1, 1fr);
   }
-  .portfolio {
-    .image-data {
+  .research-card {
+    .research-image-container {
       position: relative;
       &::before {
         content: "";
@@ -23,7 +23,8 @@
         left: 15px;
         height: calc(100% - 30px);
         width: calc(100% - 30px);
-        background-color: rgba(255, 255, 255, 0.925);
+        background-color: #037fff;
+        opacity: 0.95;
         transform-origin: center;
         transform: scale(0);
         transition: all 0.4s ease-in-out;
@@ -37,7 +38,7 @@
         object-fit: cover;
       }
 
-      .hover-items {
+      .research-hover-items {
         list-style: none;
         position: absolute;
         top: 70%;
@@ -51,8 +52,8 @@
             text-decoration: none;
             font-family: inherit;
             border-radius: 10px;
-            background-color: #037fff;
-            color: white;
+            background-color: white;
+            color: #037fff;
             &:not(:last-child) {
               margin-right: 2rem;
             }
@@ -61,7 +62,7 @@
       }
 
       &:hover {
-        .hover-items {
+        .research-hover-items {
           transition: all 0.5s ease-in-out 0.2s;
           visibility: visible;
           top: 50%;

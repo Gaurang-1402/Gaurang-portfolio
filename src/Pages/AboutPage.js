@@ -8,12 +8,12 @@ import Title from "../Components/Title"
 
 function AboutPage() {
   return (
-    <div className='AboutPage'>
+    <div className='about-page'>
       <Title title={"About Me"} />
       <ImageSection />
 
-      <Title title={"Services"} span={"Services"} />
-      <div className='servives-container'>
+      <Title title={"Services"} />
+      <div className='services-container'>
         <ServicesSection
           image={design}
           title={"Web design"}

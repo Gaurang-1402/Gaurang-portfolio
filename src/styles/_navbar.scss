@@ -1,13 +1,13 @@
-.NavBar {
+.navbar-container {
   height: 100vh;
-  .nav {
+  .navbar-content {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 
-    .profile {
+    .navbar-profile {
       margin-top: 4rem;
       width: 100%;
       text-align: center;
@@ -20,9 +20,9 @@
       }
     }
 
-    .nav-items {
+    .navbar-items {
       width: 100%;
-      .nav-item {
+      .navbar-item {
         list-style: none;
         font-weight: bold;
         text-align: center;

@@ -3,13 +3,12 @@ import NavbarComponent from "./Components/NavbarComponent"
 import HomePage from "./Pages/HomePage"
 import { Switch, Route } from "react-router-dom"
 import AboutPage from "./Pages/AboutPage"
-import PortfliosPage from "./Pages/PortfoliosPage"
-import BlogsPage from "./Pages/BlogsPage"
+import ResearchPage from "./Pages/ResearchPage"
+import ProjectsPage from "./Pages/ProjectsPage"
 import ContactPage from "./Pages/ContactPage"
 import { useState } from "react"
 import StarryBackground from "./Components/StarryBackground/StarryBackground"
 import ResumePage from "./Pages/ResumePage/ResumePage"
-import CertificatePage from "./Pages/CertificatePage/CertificatesPage"
 
 function App() {
   const [navToggle, setNavToggle] = useState(false)
@@ -39,19 +38,16 @@ function App() {
               <AboutPage />
             </Route>
             <Route path='/portfolios' exact>
-              <PortfliosPage />
+              <ResearchPage />
             </Route>
-            <Route path='/blogs' exact>
-              <BlogsPage />
+            <Route path='/projects' exact>
+              <ProjectsPage />
             </Route>
             <Route path='/contact' exact>
               <ContactPage />
             </Route>
             <Route path='/resume' exact>
               <ResumePage />
-            </Route>
-            <Route path='/certificates' exact>
-              <CertificatePage />
             </Route>
           </Switch>
         </div>

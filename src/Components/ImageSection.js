@@ -3,8 +3,8 @@ import about from "../img/about.jpeg"
 
 function ImageSection() {
   return (
-    <div className='ImageSection'>
-      <div className='img'>
+    <div className='image-section'>
+      <div className='img-container'>
         <img src={about} alt='' />
       </div>
       <div className='about-info'>
@@ -17,7 +17,7 @@ function ImageSection() {
           po la ta doso vi slone ve?
         </p>
         <div className='about-details'>
-          <div className='left-section'>
+          <div className='about-fields'>
             <p>Full Name</p>
             <p>Age</p>
             <p>Nationality</p>
@@ -25,7 +25,7 @@ function ImageSection() {
             <p>Address</p>
             <p>Countries</p>
           </div>
-          <div className='right-section'>
+          <div className='about-values'>
             <p>: Lorem Ipsum</p>
             <p>: 50</p>
             <p>: French</p>
@@ -34,7 +34,7 @@ function ImageSection() {
             <p>: France, Spain, Germany</p>
           </div>
         </div>
-        <button className='btn'>Download Cv</button>
+        <button className='about-button'>Download Cv</button>
       </div>
     </div>
   )

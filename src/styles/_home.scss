@@ -1,4 +1,4 @@
-.HomePage {
+.home-page {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -6,7 +6,7 @@
   width: 80%;
 }
 
-.hero-text {
+.home-header-text {
   margin-bottom: 2rem;
   color: white;
   text-align: center;
@@ -16,19 +16,19 @@
   }
 }
 
-.h-sub-text {
+.home-header-subtext {
   font-weight: bold;
   text-align: center;
   font-size: 1.3rem;
   margin-bottom: 1rem;
 }
 
-.icons {
+.home-icons {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 1.5rem 0;
-  .icon-holder {
+  .home-icon-container {
     margin-right: 1rem;
     .icon {
       font-size: 3rem;

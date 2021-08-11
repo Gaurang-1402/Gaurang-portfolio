@@ -1,6 +1,6 @@
-.ServicesSection {
+.services-section {
   margin-top: 4rem;
-  .service {
+  .service-container {
     width: 95%;
     background-color: #191d2b;
     border-left: 1px solid #2e344e;
@@ -18,7 +18,7 @@
 
     .service-content {
       padding: 1rem;
-      .s-title {
+      .service-title {
         font-size: 1.6rem;
         font-weight: 500;
         position: relative;
@@ -38,7 +38,7 @@
   }
 }
 
-.servives-container {
+.services-container {
   display: flex;
   justify-content: space-between;
   margin-top: 4rem;

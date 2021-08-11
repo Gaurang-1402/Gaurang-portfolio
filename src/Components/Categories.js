@@ -1,15 +1,23 @@
-import React from 'react';
+import React from "react"
+import "../styles/_categories.scss"
 
-function Categories({filter, categories}) {
-    return (
-        <div className="buttons">
-            {
-                categories.map((cat, i)=>{
-                    return <button type="button" className="btn-port" onClick={()=> filter(cat)} key={i}>{cat}</button>
-                })
-            }
-        </div>
-    )
+function Categories({ filter, categories }) {
+  return (
+    <div className='categories-container'>
+      {categories.map((category, i) => {
+        return (
+          <button
+            type='button'
+            className='category-button'
+            onClick={() => filter(category)}
+            key={i}
+          >
+            {category}
+          </button>
+        )
+      })}
+    </div>
+  )
 }
 
-export default Categories;
+export default Categories
