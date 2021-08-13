@@ -7,7 +7,7 @@ function MenuItems({ menuItem }) {
         return (
           <div className='research-card' key={item.id}>
             <div className='research-image-container'>
-              <img src={item.image} alt='' />
+              <img src={item.image} alt={item.title} />
               <ul className='research-hover-items'>
                 <li>
                   <a href={item.link1}>{item.icon1}</a>

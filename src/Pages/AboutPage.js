@@ -1,36 +1,50 @@
 import React from "react"
 import ImageSection from "../Components/ImageSection"
-import ServicesSection from "../Components/ServicesSection"
+import HobbiesSection from "../Components/HobbiesSection"
 import design from "../img/design.svg"
 import intelligence from "../img/intelligence.svg"
 import gamedev from "../img/game-dev.svg"
 import Title from "../Components/Title"
+import { Helmet } from "react-helmet"
 
 function AboutPage() {
   return (
-    <div className='about-page'>
-      <Title title={"About Me"} />
-      <ImageSection />
+    <>
+      <Helmet>
+        <title>About Gaurang Ruparelia</title>
+        <meta
+          name='description'
+          content='A short description about Gaurang Ruparelia, his hobbies, who Gaurang Ruparelia is'
+        ></meta>
+        <meta
+          name='keywords'
+          content='About Gaurang, what does Gaurang Ruparelia do, about Ruparelia,'
+        />
+      </Helmet>
+      <div className='about-page'>
+        <Title title={"About Me"} />
+        <ImageSection />
 
-      <Title title={"Services"} />
-      <div className='services-container'>
-        <ServicesSection
-          image={design}
-          title={"Web design"}
-          text={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}
-        />
-        <ServicesSection
-          image={intelligence}
-          title={"Artificial Intelligence"}
-          text={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}
-        />
-        <ServicesSection
-          image={gamedev}
-          title={"Game Development"}
-          text={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}
-        />
+        <Title title={"Hobbies"} />
+        <div className='services-container'>
+          <HobbiesSection
+            image={design}
+            title={"Web design"}
+            text={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}
+          />
+          <HobbiesSection
+            image={intelligence}
+            title={"Artificial Intelligence"}
+            text={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}
+          />
+          <HobbiesSection
+            image={gamedev}
+            title={"Game Development"}
+            text={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}
+          />
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 

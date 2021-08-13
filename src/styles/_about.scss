@@ -14,11 +14,13 @@
 
   .about-info {
     margin-left: 2rem;
+    font-weight: bold;
     h4 {
       font-size: 2.5rem;
     }
     .about-text {
       padding: 1rem 0;
+      font-weight: bold;
     }
   }
   @media screen and (max-width: 1400px) {

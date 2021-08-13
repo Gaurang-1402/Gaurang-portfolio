@@ -7,38 +7,75 @@ import {
 } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
-import { Link } from "react-router-dom"
+import Helmet from "react-helmet"
 
 function HomePage() {
   return (
-    <div className='home-page'>
-      <header className='home-header-container'>
-        <h1 className='home-header-text'>
-          Hi, I am
-          <span> Lorem Ipsum.</span>
-        </h1>
-        <p className='home-header-subtext'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-          facere, numquam vitae placeat consequatur corrupti officia quibusdam.
-          Blanditiis doloremque nemo ex facilis neque. A sint ipsam earum nemo
-          omnis et.
-        </p>
-        <div className='home-icons'>
-          <Link to='test' className='home-icon-container'>
-            <FontAwesomeIcon icon={faLinkedin} className='icon linkedin' />
-          </Link>
-          <Link to='test' className='home-icon-container'>
-            <FontAwesomeIcon icon={faGithub} className='icon github' />
-          </Link>
-          <Link to='test' className='home-icon-container'>
-            <FontAwesomeIcon icon={faMedium} className='icon medium' />
-          </Link>
-          <Link to='test' className='home-icon-container'>
-            <FontAwesomeIcon icon={faTwitter} className='icon twitter' />
-          </Link>
-        </div>
-      </header>
-    </div>
+    <>
+      <Helmet>
+        <title>Home Gaurang Ruparelia</title>
+        <meta
+          name='description'
+          content='Introduction to Gaurang Ruparelia and his portfolio website'
+        ></meta>
+        <meta
+          name='keywords'
+          content='Who is Gaurang Ruparelia, Gaurang Ruparelia introduction, what does Gaurang do'
+        />
+      </Helmet>
+      <div className='home-page'>
+        <header className='home-header-container'>
+          <h1 className='home-header-text'>
+            Hey there! My name is
+            <span> Gaurang Ruparelia</span>
+          </h1>
+          <p className='home-header-subtext'>
+            Welcome to my website! You can learn more about me by navigating the
+            menu on your left (if you're on mobile, press the three lines on top
+            right of the screen). Thanks for stopping by and do check out my
+            social handles- I'd love to connect with you!
+          </p>
+          <div className='home-icons'>
+            <a
+              rel='noopener noreferrer'
+              style={{ display: "table-cell" }}
+              target='_blank'
+              href='https://www.linkedin.com/in/gaurang-ruparelia/'
+              className='home-icon-container'
+            >
+              <FontAwesomeIcon icon={faLinkedin} className='icon linkedin' />
+            </a>
+            <a
+              rel='noopener noreferrer'
+              style={{ display: "table-cell" }}
+              target='_blank'
+              href='https://github.com/gaurang-1402'
+              className='home-icon-container'
+            >
+              <FontAwesomeIcon icon={faGithub} className='icon github' />
+            </a>
+            <a
+              rel='noopener noreferrer'
+              target='_blank'
+              style={{ display: "table-cell" }}
+              href='https://gaurang-ruparelia02.medium.com/'
+              className='home-icon-container'
+            >
+              <FontAwesomeIcon icon={faMedium} className='icon medium' />
+            </a>
+            <a
+              rel='noopener noreferrer'
+              style={{ display: "table-cell" }}
+              target='_blank'
+              href='https://twitter.com/gaurangr2'
+              className='home-icon-container'
+            >
+              <FontAwesomeIcon icon={faTwitter} className='icon twitter' />
+            </a>
+          </div>
+        </header>
+      </div>
+    </>
   )
 }
 

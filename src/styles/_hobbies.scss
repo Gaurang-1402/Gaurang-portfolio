@@ -1,6 +1,6 @@
-.services-section {
+.hobbies-section {
   margin-top: 4rem;
-  .service-container {
+  .hobby-container {
     width: 95%;
     background-color: #191d2b;
     border-left: 1px solid #2e344e;
@@ -16,9 +16,9 @@
       border-top: 8px solid #037fff;
     }
 
-    .service-content {
+    .hobby-content {
       padding: 1rem;
-      .service-title {
+      .hobby-title {
         font-size: 1.6rem;
         font-weight: 500;
         position: relative;
@@ -38,7 +38,7 @@
   }
 }
 
-.services-container {
+.hobbies-container {
   display: flex;
   justify-content: space-between;
   margin-top: 4rem;

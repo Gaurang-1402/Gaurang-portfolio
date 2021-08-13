@@ -9,31 +9,17 @@ function ImageSection() {
       </div>
       <div className='about-info'>
         <h4>
-          I am<span> Lorem Ipsum</span>
+          Call me <span> Gaurang (pronounced goo-rung)</span>
         </h4>
         <p className='about-text'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          necessitatibus perferendis numquam dolorem cumque facilis. Desir per
-          po la ta doso vi slone ve?
+          Born and raised in Mumbai, India, I'm an international student
+          studying computer science at NYU Tandon School of Engineering. I'm
+          also . If left alone . I'm more of a generalist and I'm super obsessed
+          with sci-fi and thriller movies(hit me up if you ever need
+          recommendations) In my freetime, I spend time reading and playing
+          Squash.
         </p>
-        <div className='about-details'>
-          <div className='about-fields'>
-            <p>Full Name</p>
-            <p>Age</p>
-            <p>Nationality</p>
-            <p>Languages</p>
-            <p>Address</p>
-            <p>Countries</p>
-          </div>
-          <div className='about-values'>
-            <p>: Lorem Ipsum</p>
-            <p>: 50</p>
-            <p>: French</p>
-            <p>: French, Spanish, English</p>
-            <p>: 2 Beightbridge, BN7 GB9, United kingdom</p>
-            <p>: France, Spain, Germany</p>
-          </div>
-        </div>
+
         <button className='about-button'>Download Cv</button>
       </div>
     </div>

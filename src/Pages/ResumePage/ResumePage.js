@@ -10,7 +10,7 @@ const ResumePage = () => {
         <embed
           className='resume'
           type='application/pdf'
-          src={resumePDF + "#view=FitH"}
+          src={resumePDF + "#view=FitW"}
         />
       </div>
     </div>

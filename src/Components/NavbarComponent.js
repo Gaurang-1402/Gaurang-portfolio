@@ -22,8 +22,8 @@ function NavbarComponent() {
             </NavLink>
           </li>
           <li className='navbar-item'>
-            <NavLink to='/portfolios' exact activeClassName='active'>
-              Portfolios
+            <NavLink to='/research' exact activeClassName='active'>
+              Research
             </NavLink>
           </li>
           <li className='navbar-item'>
