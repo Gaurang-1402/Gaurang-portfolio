@@ -8,96 +8,106 @@ import physicsIa from "../img/research/physics_ia.jpg"
 import tok from "../img/research/tok.jpg"
 import cS from "../img/research/computer_science.jpg"
 
+import physicsEePaper from "../PDFs/physics-ee.pdf"
+import physicsIaPaper from "../PDFs/physics-ia.pdf"
+import mathsIaPaper from "../PDFs/maths-ia.pdf"
+import cSPaper from "../PDFs/cs.pdf"
+import econComm1Paper from "../PDFs/economics-micro.pdf"
+import econComm2Paper from "../PDFs/economics-macro.pdf"
+import econComm3Paper from "../PDFs/economics-international.pdf"
+import chemistryIaPaper from "../PDFs/chemistry-ia.pdf"
+import tokPaper from "../PDFs/tok.pdf"
+
 const researchWork = [
   {
     id: 1,
     category: "Physics",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
     icon1: "G",
     icon2: "Y",
+    downloadLink: physicsEePaper,
     image: physicsEe,
-    title: "Racquet",
+    title: "What is the ideal spot to target on a Squash racquet?",
+    paragraph: "Physics",
   },
   {
     id: 2,
     category: "Mathematics",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
     icon1: "G",
     icon2: "Y",
+    downloadLink: mathsIaPaper,
     image: mathIa,
-    title: "Serve",
+    title: "What is the ideal service in a Squash court?",
+    paragraph: "Mathematics",
   },
   {
     id: 3,
     category: "Chemistry",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
     icon1: "G",
     icon2: "Y",
     image: chemistryIa,
-    title: "Pickle",
+    downloadLink: chemistryIaPaper,
+    title: "To what extent can vinegar be reused after pickling?",
+    paragraph: "Chemistry",
   },
   {
     id: 4,
     category: "Economics",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
     icon1: "G",
     icon2: "Y",
     image: econComm1,
-    title: "Microeconomics",
+    downloadLink: econComm1Paper,
+    title: "Repurcussions of a Price Floor on Indian sugarcane farmers",
+    paragraph: "Microeconomics",
   },
   {
     id: 5,
     category: "Economics",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
+    downloadLink: econComm2Paper,
     icon1: "G",
     icon2: "Y",
     image: econComm2,
-    title: "Macroeconomics",
+    title: "An analysis of India's rapid GDP growth",
+    paragraph: "Macroeconomics",
   },
   {
     id: 6,
     category: "Economics",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
+    downloadLink: econComm3Paper,
     icon1: "G",
     icon2: "Y",
     image: econComm3,
-    title: "International Economics",
+    title: "Policies used by Hong Kong to maintain a stable exchange rate",
+    paragraph: "International Economics",
   },
   {
     id: 7,
     category: "Physics",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
     icon1: "G",
     icon2: "Y",
     image: physicsIa,
-    title: "Squash ball",
+    downloadLink: physicsIaPaper,
+    title: "What is the optimum temperature of a Squash ball?",
+    paragraph: "Physics",
   },
   {
     id: 8,
     category: "Theory of Knowledge",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
     icon1: "G",
     icon2: "Y",
+    downloadLink: tokPaper,
     image: tok,
-    title: "Role of Analogies",
+    title: "What role do analogies play in shaping human knowledge",
+    paragraph: "Theory of Knowledge",
   },
   {
     id: 9,
     category: "Computer Science",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
     icon1: "G",
     icon2: "Y",
     image: cS,
-    title: "Role of Analogies",
+    downloadLink: cSPaper,
+    title: "What mistakes do first time programmers make?",
+    paragraph: "Computer Science",
   },
 ]
 

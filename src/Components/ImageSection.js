@@ -1,6 +1,7 @@
 import React from "react"
 import about from "../img/about.jpeg"
-
+import gaurangResume from "../PDFs/Gaurang_Ruparelia_Resume.pdf"
+import gaurangPronounciation from "../img/gaurang.mp3"
 function ImageSection() {
   return (
     <div className='image-section'>
@@ -10,6 +11,14 @@ function ImageSection() {
       <div className='about-info'>
         <h4>
           Call me <span> Gaurang (pronounced goo-rung)</span>
+          <div style={{ paddingTop: "15px" }}>
+            <audio
+              id='player'
+              controls
+              src={gaurangPronounciation}
+              type='audio/mp3'
+            />
+          </div>
         </h4>
         <p className='about-text'>
           Born and raised in Mumbai, India, I'm an international student
@@ -19,8 +28,9 @@ function ImageSection() {
           recommendations) In my freetime, I spend time reading and playing
           Squash.
         </p>
-
-        <button className='about-button'>Download Cv</button>
+        <a download href={gaurangResume}>
+          <button className='about-button'>Download my resume</button>
+        </a>
       </div>
     </div>
   )

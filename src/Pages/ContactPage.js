@@ -28,7 +28,7 @@ function ContactPage() {
           <div className='map-sect'>
             <iframe
               title='map'
-              src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.700327595181!2d-0.13858868403737226!3d50.836714467337785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487585104ec1fe1b%3A0x28b5349b15ce0c4d!2sLondon%20Road%20(Brighton)%20Train%20Station%20-%20Southern%20Railway!5e0!3m2!1sen!2suk!4v1611468671158!5m2!1sen!2suk'
+              src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193747.65734576355!2d-74.08508155679834!3d40.645159363485455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24416947c2109%3A0x82765c7404007886!2sBrooklyn%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1628881636089!5m2!1sen!2sin'
               width='600'
               height='450'
               frameBorder='0'
@@ -41,20 +41,18 @@ function ContactPage() {
           <div className='contact-sect'>
             <ContactItem
               icon={phone}
-              text1={"+257 7756110718"}
-              text2={"+0333 6782 8792"}
+              text1={"+1 718-500-1897"}
               title={"Phone"}
             />
             <ContactItem
               icon={email}
-              text1={"loremipusum@hmail.com"}
-              text2={"abcloremipsum@gmail.com"}
+              text1={"gaurang[dot]ruparelia02[at]gmail[dot]com"}
               title={"Email"}
             />
             <ContactItem
               icon={location}
-              text1={"25 Paramount St, PN4 8H9 London"}
-              text2={"United Kingdom"}
+              text1={"Brooklyn, New York"}
+              text2={"United States"}
               title={"Address"}
             />
           </div>

@@ -1,9 +1,10 @@
 import React from "react"
 import ImageSection from "../Components/ImageSection"
 import HobbiesSection from "../Components/HobbiesSection"
-import design from "../img/design.svg"
-import intelligence from "../img/intelligence.svg"
-import gamedev from "../img/game-dev.svg"
+import nature from "../img/nature.svg"
+import book from "../img/book.svg"
+
+import squash from "../img/squash.svg"
 import Title from "../Components/Title"
 import { Helmet } from "react-helmet"
 
@@ -28,17 +29,17 @@ function AboutPage() {
         <Title title={"Hobbies"} />
         <div className='services-container'>
           <HobbiesSection
-            image={design}
+            image={squash}
             title={"Web design"}
             text={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}
           />
           <HobbiesSection
-            image={intelligence}
+            image={nature}
             title={"Artificial Intelligence"}
             text={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}
           />
           <HobbiesSection
-            image={gamedev}
+            image={book}
             title={"Game Development"}
             text={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}
           />

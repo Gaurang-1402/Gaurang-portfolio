@@ -55,7 +55,7 @@ const projects = [
     id: 6,
     image: environmoney,
     title: "Environmoney: be the change with your space change",
-    link: "https://www.facebook.com/",
+    link: "https://devpost.com/software/enviromoney",
     isHackathon: true,
     teamType: "group",
     tech: "React Native",

@@ -34,7 +34,6 @@ function ProjectsPage() {
                     rel='noopener noreferrer'
                     style={{ display: "table-cell" }}
                     target='_blank'
-                    href='https://www.linkedin.com/in/gaurang-ruparelia/'
                     href={project.link}
                     className='project-link'
                   >

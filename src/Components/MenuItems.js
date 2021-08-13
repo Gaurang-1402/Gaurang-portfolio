@@ -10,13 +10,14 @@ function MenuItems({ menuItem }) {
               <img src={item.image} alt={item.title} />
               <ul className='research-hover-items'>
                 <li>
-                  <a href={item.link1}>{item.icon1}</a>
-                  <a href={item.link2}>{item.icon2}</a>
+                  <a download href={item.downloadLink}>
+                    View
+                  </a>
                 </li>
               </ul>
             </div>
             <h5>{item.title}</h5>
-            <p>Placeholder paragraph</p>
+            <p>{item.paragraph}</p>
           </div>
         )
       })}

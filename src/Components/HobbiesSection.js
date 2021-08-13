@@ -5,7 +5,7 @@ function HobbiesSection({ image, title, text }) {
     <div className='hobbies-section'>
       <div className='hobby-container'>
         <div className='hobby-content'>
-          <img src={image} alt='' />
+          <img src={image} alt={title} />
           <h5 className='hobby-title'>{title}</h5>
           <p className='hobby-text'>{text}</p>
         </div>
