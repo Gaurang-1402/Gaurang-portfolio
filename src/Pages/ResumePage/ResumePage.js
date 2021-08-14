@@ -12,10 +12,14 @@ const ResumePage = () => {
           data={resumePDF + "#view=FitH"}
           type='application/pdf'
         >
-          <embed
-            className='resume'
-            src=' https://drive.google.com/file/d/1vTkuhDtHjJfnD7_f2yrdeJ8uY3xSr2kH/view?usp=sharing'
-          />
+          <p>Oops! Your browser doesn't support PDFs!</p>
+          <p>
+            <a download href={resumePDF}>
+              <button className='about-button'>
+                Download my resume instead
+              </button>
+            </a>
+          </p>
         </object>
       </div>
     </div>
