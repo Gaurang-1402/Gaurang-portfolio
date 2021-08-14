@@ -7,11 +7,16 @@ const ResumePage = () => {
     <div class='ResumePage'>
       <Title title={"My resume"} />
       <div className='resume-container'>
-        <embed
+        <object
           className='resume'
+          data={resumePDF + "#view=FitH"}
           type='application/pdf'
-          src={resumePDF + "#view=FitW"}
-        />
+        >
+          <embed
+            className='resume'
+            src=' https://drive.google.com/file/d/1vTkuhDtHjJfnD7_f2yrdeJ8uY3xSr2kH/view?usp=sharing'
+          />
+        </object>
       </div>
     </div>
   )
