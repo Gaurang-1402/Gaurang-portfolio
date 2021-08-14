@@ -45,7 +45,7 @@ function NavbarComponent() {
         </ul>
 
         <footer className='footer'>
-          <p>@2021 Lorem Ipsum</p>
+          <p>Made and maintained by Gaurang Ruparelia</p>
         </footer>
       </nav>
     </div>

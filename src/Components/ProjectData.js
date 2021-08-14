@@ -18,7 +18,7 @@ const projects = [
   {
     id: 2,
     image: electronStore,
-    title: "Electron is an online store to buy electronics",
+    title: "Electron: an online store to buy electronics",
     link: "https://electronstore.herokuapp.com/",
     isHackathon: false,
     teamType: "solo",
