@@ -6,7 +6,7 @@ import AboutPage from "./Pages/AboutPage"
 import ResearchPage from "./Pages/ResearchPage"
 import ProjectsPage from "./Pages/ProjectsPage"
 import ContactPage from "./Pages/ContactPage"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import StarryBackground from "./Components/StarryBackground/StarryBackground"
 import ResumePage from "./Pages/ResumePage/ResumePage"
 
@@ -16,6 +16,12 @@ function App() {
   const navClick = () => {
     setNavToggle(!navToggle)
   }
+
+  useEffect(() => {
+    document.addEventListener("mousedown", () => {
+      setNavToggle(false)
+    })
+  })
 
   return (
     <div className='App'>
