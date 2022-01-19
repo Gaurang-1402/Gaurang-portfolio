@@ -29,12 +29,7 @@ function HomePage() {
             Hey there! My name is
             <span> Gaurang Ruparelia</span>
           </h1>
-          <p className='home-header-subtext'>
-            Welcome to my website! You can learn more about me by navigating the
-            menu on your left (if you're on mobile, press the three lines on top
-            right of the screen). Thanks for stopping by and do check out my
-            social handles- I'd love to connect with you!
-          </p>
+          {/* <p className='home-header-subtext'>Welcome to my website!</p> */}
           <div className='home-icons'>
             <a
               rel='noopener noreferrer'
