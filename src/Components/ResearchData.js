@@ -7,7 +7,7 @@ import physicsEe from "../img/research/physics_ee.jpg"
 import physicsIa from "../img/research/physics_ia.jpg"
 import tok from "../img/research/tok.jpg"
 import cS from "../img/research/computer_science.jpg"
-import lpcv from "../img/research/LPCV.jpg"
+import lpcv from "../img/research/lpcv.jpg"
 
 
 import physicsEePaper from "../PDFs/physics-ee.pdf"
