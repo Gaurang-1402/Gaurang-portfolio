@@ -19,7 +19,7 @@ import econComm2Paper from "../PDFs/economics-macro.pdf"
 import econComm3Paper from "../PDFs/economics-international.pdf"
 import chemistryIaPaper from "../PDFs/chemistry-ia.pdf"
 import tokPaper from "../PDFs/tok.pdf"
-import lpcvPaper from "../PDFs/lpcv.pdf"
+import lpcvPaper from "../PDFs/LPCV.pdf"
 
 
 const researchWork = [
