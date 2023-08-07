@@ -110,7 +110,7 @@ const researchWork = [
     icon2: "Y",
     image: cS,
     downloadLink: cSPaper,
-    title: "What mistakes do first time programmers make?",
+    title: "What mistakes do first time programmers make? ",
     paragraph: "Computer Science",
   },
   {
