@@ -7,6 +7,8 @@ import physicsEe from "../img/research/physics_ee.jpg"
 import physicsIa from "../img/research/physics_ia.jpg"
 import tok from "../img/research/tok.jpg"
 import cS from "../img/research/computer_science.jpg"
+import lpcv from "../img/research/LPCV.jpg"
+
 
 import physicsEePaper from "../PDFs/physics-ee.pdf"
 import physicsIaPaper from "../PDFs/physics-ia.pdf"
@@ -17,6 +19,8 @@ import econComm2Paper from "../PDFs/economics-macro.pdf"
 import econComm3Paper from "../PDFs/economics-international.pdf"
 import chemistryIaPaper from "../PDFs/chemistry-ia.pdf"
 import tokPaper from "../PDFs/tok.pdf"
+import lpcvPaper from "../PDFs/lpcv.pdf"
+
 
 const researchWork = [
   {
@@ -107,6 +111,16 @@ const researchWork = [
     image: cS,
     downloadLink: cSPaper,
     title: "What mistakes do first time programmers make?",
+    paragraph: "Computer Science",
+  },
+  {
+    id: 10,
+    category: "Computer Science",
+    icon1: "G",
+    icon2: "Y",
+    image: lpcv,
+    downloadLink: lpcvPaper,
+    title: "Leveraging Low-Power Computer Vision for Pedestrian Counting in New York City",
     paragraph: "Computer Science",
   },
 ]
